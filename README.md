@@ -1,24 +1,21 @@
-# Rails Practice Challenge - Apartments
+# Flask Practice Challenge - Apartments
 
 ## Setup
 
 To download the dependencies for backend, run:
 
 ```console
-$ bundle install
+$ pipenv install
 ```
 
-There is some starter code in the `db/seeds.rb` file so that once you've
-generated the models, you'll be able to create data to test your application.
-
-You can run your Rails API on [`localhost:3000`](http://localhost:3000) by running:
+You can run your Flask API on [`localhost:3000`](http://localhost:3000) by entering the development environment with `pipenv shell`, then after changing into the `server` directory running:
 
 ```console
-$ rails s
+$ python app.py
 ```
 
 There are no tests for this application, so you'll need to check your progress
-by running the server and using Postman to make requests.
+by running the server and using Postman or JavaScript `fetch` to make requests.
 
 ## Introduction
 
